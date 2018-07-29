@@ -23,7 +23,7 @@ E.g:
                
   ## Details 
 
-This model has been trained using n-grams and tfidf vectorization method. It had 76% training accuracy with 70% testing accuracy. Also since it is not possible to train with sinhala fonts, **phonetic representation** used to represent sinhala words.
+This model has been trained using n-grams and tfidf vectorization method. It had **76% training accuracy** with **70% testing accuracy**. Also since it is not possible to train with sinhala fonts, **phonetic representation** used to represent sinhala words.
 Under pre-processing, this algorithm only removes URLs from news.
 
   ## Requirements
