@@ -47,6 +47,9 @@ Under pre-processing, this algorithm only removes URLs from news.
   ## Prediction
 
 Here add your prediction text.txt file to `Predict` folder. Please remember to rename the file as text.txt (If you don't want to edit Code.py) and keep it as UTF-8 encoded.
-For a test run of prediction, just run  `./Code.py` as said in *Run* subsection.
+
+For a test run of prediction, just run  `./Code.py` as said in **Run** subsection.
+
 It is a must to have saved HDF5 file under Code folder. If not, program will automatically start to train before predict.
+
 Note that, your prediction may not be very accurate since this model only achieved 70% of accuracy and trained only upto some vocabulary. To get better results, retrain the model with paragraphs of news having your preferred vocabulary.
