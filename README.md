@@ -7,6 +7,7 @@ Text classification is currently a popular machine learning application and this
  
     Master -- |
               |-Code 
+              |-Predict
               |-Testing
               |-Training
               |-Validation
