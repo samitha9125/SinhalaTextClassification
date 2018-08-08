@@ -1,6 +1,6 @@
 # Sinhala Text Classification
 
-Text classification is currently a popular machine learning application and this repository contains details of results and datasets.
+Text classification is currently a popular machine learning application and this repository contains results, code and datasets which used to train validate and test this sinhala text classifier.
 
 
  ## Folder Structure
@@ -14,13 +14,13 @@ Text classification is currently a popular machine learning application and this
            
 Code folder contains Code.py file which shows the implementation of this classification with data pre processing. Also it contains this trained n-grams based model in HDF5 format. 
 
-Testing,Training,Validation Folders contain test,train and validation data respectively in categories. As an example, this Sinhala text classification is a binary classification (Classified based on Local news and International News). So these folders contain Two subfolders to represent those categories and each category contains a text.txt file (UTF-8 Encoded) which contains all news.
+Testing,Training,Validation Folders contain test,train and validation data respectively in categories. As an example, this Sinhala text classification is a binary classification (Classified based on Local news and International News only). So these folders contain Two subfolders to represent those categories and each category contains a text.txt file (UTF-8 Encoded) which contains all news.
 
 E.g:
 
     Testing -- |
-               |-International - text.txt
-               |-Local - text.txt
+               |-International -- |- text.txt
+               |-Local         -- |- text.txt
                
   ## Details 
 
