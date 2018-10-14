@@ -39,7 +39,7 @@ Under pre-processing, this algorithm only removes URLs from news.
   
   To run this python code, from inside the Code folder run below code using terminal
  
-     ./Code.py
+     python Code.py
      
   ## Re-train     
  
@@ -49,7 +49,7 @@ Under pre-processing, this algorithm only removes URLs from news.
 
 Here add your prediction text.txt file to `Predict` folder. Please remember to rename the file as text.txt (If you don't want to edit Code.py) and keep it as UTF-8 encoded.
 
-For a test run of prediction, just run  `./Code.py` as said in **Run** subsection.
+For a test run of prediction, just run  `python Code.py` as said in **Run** subsection.
 
 It is a must to have saved HDF5 file under Code folder. If not, program will automatically start to train before predict.
 
